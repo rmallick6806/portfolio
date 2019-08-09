@@ -37,7 +37,7 @@ export default class FilmProjectTemplate extends React.Component {
     return (
       <div 
         className='banner-player mb-4'
-        style={{backgroundImage: `url(${img})`}}
+        style={{backgroundImage: `url(${config.pathPrefix + '/' + img})`}}
       >
         <a href={video}>
           <img className='play-button' src={playButton}></img>
@@ -70,7 +70,7 @@ export default class FilmProjectTemplate extends React.Component {
             <div className='col color-border-line mb-4 mt-3' />
             <div className='row'>
               <div className='col-lg-4'>
-                <img className='banner-img-container' src={poster} />
+                <img className='banner-img-container' src={config.pathPrefix + '/' + poster} />
               </div>
               <div className='col banner-header-container'>
                 {this.renderLongDescription(longDescription)}

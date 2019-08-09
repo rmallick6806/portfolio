@@ -2,7 +2,7 @@
   "name": "portfolio",
   "description": "Ray Mallick's Portfolio",
   "version": "0.1.0",
-  "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
+  "author": "Ray Mallick <rmallick6806@gmail.com>",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gatsby": "^2.4.3",

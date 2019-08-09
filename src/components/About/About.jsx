@@ -27,7 +27,7 @@ class About extends Component {
                   Feel free to reach to me for freelance work, collaboration, or a friendly chat.
                 </p>
                 <div className='mt-5'>
-                  <span className='mr-3'><Link to={'/RayMallickGeneral2019.pdf'}>Resume</Link></span>
+                  <span className='mr-3'><Link to={'RayMallickGeneral2019.pdf'}>Resume</Link></span>
                   <span className='mr-3'><a href="mailto:rmallick6806@gmail.com" target="_top">Email</a></span>
                 </div>
               </div>

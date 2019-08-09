@@ -25,7 +25,7 @@ const Featured = (props) =>(
         <div className="col-sm-4">
           <a href="https://www.motopartpicker.com">
             <div className='second-featured'
-              style={{backgroundImage: `url('/mpp-logo.png')`}}>
+              style={{backgroundImage: `url('mpp-logo.png')`}}>
               <div className='text-container'>Just Launched</div>
             </div>
           </a>
