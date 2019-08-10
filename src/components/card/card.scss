@@ -1,5 +1,5 @@
 .outer-card-container {
-  min-width: 180px !important;
+  min-width: 210px !important;
   max-width: 210px !important;
 }
 
@@ -64,6 +64,22 @@
       font-size: 0.6rem;
       padding: 3px 5px;
       background: #f3f3f3;
+    }
+  }
+}
+
+
+@media (max-width: 576px) {
+  .outer-card-container {
+    min-width: 165px !important;
+    max-width: 500px !important;
+
+    .text-container {
+      font-size: 0.8em;
+      .sub-text-container-genre,
+      .sub-text-container-tag {
+        font-size: 0.8em;
+      }
     }
   }
 }

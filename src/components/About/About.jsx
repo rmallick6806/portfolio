@@ -6,7 +6,8 @@ class About extends Component {
   render() {
     return (
       <div className='about-me-outer-container'>
-        <div className='container photo-container'></div>
+        <div className='container photo-container'
+          style={{backgroundImage: `url('raymallick-banner.jpg')`}}></div>
         <div id="about" className="container about-me-container">
           {/* <div className='about-me-color-line'/> */}
           <div className='paragraph-container'>

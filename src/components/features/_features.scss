@@ -25,9 +25,6 @@
     flex-direction: column;
     border-radius: 5px;
     background-position: center;
-    &:hover {
-
-    }
 
 
     .text-container {
@@ -85,6 +82,15 @@
     .main-featured,
     .second-featured {
       height: 300px;
+
+      .main-featured-text-container {
+        font-size: 9pt;
+        padding: 15px 24px;
+        line-height: 16px;
+        .text-sub-heading {
+          font-size: 9pt;
+        }
+      }
     }
   }
 }
@@ -93,7 +99,7 @@
   .featured {
     .main-featured,
     .second-featured {
-      height: 290px;
+      height: 260px;
     }
   }
 }

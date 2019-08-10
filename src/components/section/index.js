@@ -25,6 +25,9 @@ const Section = (props) => (
         return <Card key={idx} idx={idx * Math.random()} {...card.node} />
       }) : <EmptySection />
     }
+    {
+      (props.data.length % 2 !== 0) ? <div className="col outer-card-container" /> : null
+    }
     </div>
   </div>
 );
